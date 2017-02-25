@@ -15,6 +15,14 @@
 
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 
+# Inherit some common AOSiP stuff.
+$(call inherit-product, vendor/aosip/common.mk)
+
+
+# Telephony-ext 
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
