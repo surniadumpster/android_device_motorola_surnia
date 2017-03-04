@@ -14,6 +14,7 @@
 # limitations under the License.
 
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
+$(call inherit-product, vendor/hexagon/configs/telephony.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
@@ -21,7 +22,7 @@ TARGET_SCREEN_HEIGHT := 960
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := lineage_surnia
+PRODUCT_NAME := hexagon_surnia
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := surnia
