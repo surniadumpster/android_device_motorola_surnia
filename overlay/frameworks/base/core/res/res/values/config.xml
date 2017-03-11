@@ -48,7 +48,4 @@
         <item>15</item>
     </integer-array>
 
-    <!-- Enable blur support -->
-    <bool name="config_uiBlurEnabled">true</bool>
-
 </resources>

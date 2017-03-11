@@ -1,1 +1,2 @@
-add_lunch_combo lineage_surnia-userdebug
+add_lunch_combo tipsy_surnia-userdebug
+add_lunch_combo tipsy_surnia-eng
