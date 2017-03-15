@@ -1,1 +1,2 @@
-add_lunch_combo lineage_surnia-userdebug
+add_lunch_combo tesla_surnia-userdebug
+add_lunch_combo tesla_surnia-eng
