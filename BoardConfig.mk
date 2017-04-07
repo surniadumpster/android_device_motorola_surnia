@@ -22,6 +22,7 @@ include device/motorola/msm8916-common/BoardConfigCommon.mk
 DEVICE_PATH := device/motorola/surnia
 
 TARGET_KERNEL_CONFIG := surnia_defconfig
+KERNEL_TOOLCHAIN_PREFIX := arm-linux-androidkernel-
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := XT1514,XT1521,XT1524,XT1526,XT1527,XT1523,surnia_uds,surnia_umts,surnia,surnia_udstv
@@ -44,3 +45,12 @@ TARGET_POWERHAL_HEADER_PATH := $(DEVICE_PATH)/power
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_USES_QCOM_BSP := true
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8916
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8916
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8916
+TARGET_QCOM_BLUETOOTH_VARIANT := caf-msm8916
+
+TW_THEME := portrait_hdpi
