@@ -18,10 +18,12 @@ $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
+PRODUCT_COPY_FILES += \
+vendor/bliss/prebuilt/common/bootanimation/600.zip:system/media/bootanimation.zip
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := lineage_surnia
+PRODUCT_NAME := bliss_surnia
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := surnia
@@ -30,3 +32,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto E LTE (2nd gen)"
 
 WITH_SU := true
+
+# Add extra packages
+PRODUCT_PACKAGES += \
+    Camera2
+
