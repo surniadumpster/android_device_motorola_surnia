@@ -1,1 +1,1 @@
-add_lunch_combo lineage_surnia-userdebug
+add_lunch_combo pa_surnia-userdebug
