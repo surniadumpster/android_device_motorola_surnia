@@ -22,6 +22,7 @@ include device/motorola/msm8916-common/BoardConfigCommon.mk
 DEVICE_PATH := device/motorola/surnia
 
 TARGET_KERNEL_CONFIG := surnia_defconfig
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androidkernel-
 
 KERNEL_TOOLCHAIN_PREFIX := arm-linux-androidkernel-
 
