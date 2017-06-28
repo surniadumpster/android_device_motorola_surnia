@@ -36,4 +36,5 @@ PRODUCT_PACKAGES += \
 # It's not the size but, welp
 TARGET_BOOTANIMATION_SIZE := 480x320
 
+WITH_SU := true
 
