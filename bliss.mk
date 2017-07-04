@@ -18,6 +18,7 @@ $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
+
 PRODUCT_COPY_FILES += \
 vendor/bliss/prebuilt/common/bootanimation/600.zip:system/media/bootanimation.zip
 
@@ -37,3 +38,5 @@ WITH_SU := true
 PRODUCT_PACKAGES += \
     Camera2
 
+BLISS_O3 := true
+BLISS_PIPE := true
