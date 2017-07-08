@@ -14,7 +14,6 @@
 # limitations under the License.
 
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
@@ -40,4 +39,9 @@ TARGET_BOOTANIMATION_SIZE := 480x320
 # This adds Dev Tools in Developer settings
 TARGET_LOW_RAM_DEVICE := true
 WITH_SU := true
+
+# Extra Packages
+PRODUCT_PACKAGES += \
+    SnapdragonCamera \
+    messaging
 
