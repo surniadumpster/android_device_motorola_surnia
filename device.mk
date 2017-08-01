@@ -51,4 +51,5 @@ PRODUCT_PACKAGES += \
 
 # Extra Packages
 PRODUCT_PACKAGES += \
-    SnapdragonCamera
+    SnapdragonCamera \
+    messaging
